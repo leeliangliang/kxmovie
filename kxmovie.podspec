@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
  s.name = "kxmovie"
  s.version = "0.0.1"
  s.summary = "kxmovie for vcam."
- s.homepage = "https://github.com/littleluren/kxmovie"
+ s.homepage = "https://github.com/leeliangliang"
  s.license = "MIT"
  s.authors = "Lee"
  s.source  = { :git => "https://github.com/leeliangliang/kxmovie.git", :tag => "#{s.version}"}
