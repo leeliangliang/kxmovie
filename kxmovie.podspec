@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 #s.exclude_files = "kxmovie/FFmpeg/include/**/*.h"
  s.header_dir = "kxmovie/FFmpeg/include"
  s.resources = "kxmovie/*.bundle"
- s.vendored_libraries = "kxmovie/**/*.a"
+ #s.vendored_libraries = "kxmovie/FFmpeg/lib/*.a"
  s.xcconfig = {
     "HEADER_SEARCH_PATHS" => "\"${PODS_TARGET_SRCROOT}/kxmovie/FFmpeg/include\""
  }
