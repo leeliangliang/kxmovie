@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
  s.homepage = "https://github.com/littleluren/kxmovie"
  s.license = "MIT"
  s.authors = "Lee"
- s.source  = { :git => "https://github.com/littleluren/kxmovie.git", :tag => "#{s.version}"}
+ s.source  = { :git => "https://github.com/leeliangliang/kxmovie.git", :tag => "#{s.version}"}
  s.platform = :ios, '8.0'
  s.frameworks = 'MediaPlayer', 'QuartzCore', 'CoreGraphics', 'CoreTelephony', 'AudioToolbox', 'Accelerate' , 'VideoToolbox', 'CoreAudio', 'OpenGLES'
  s.libraries  = 'z', 'iconv', 'bz2'
