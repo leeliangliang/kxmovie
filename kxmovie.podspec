@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
  s.frameworks = 'MediaPlayer', 'QuartzCore', 'CoreGraphics', 'CoreTelephony', 'AudioToolbox', 'Accelerate' , 'VideoToolbox', 'CoreAudio', 'OpenGLES'
  s.libraries  = 'z', 'iconv', 'bz2'
  s.source_files = "kxmovie/*.{h,m}", "kxmovie/FFmpeg/include/**/*.h"
- s.exclude_files = "kxmovie/FFmpeg/include/**/*.h"
-#s.header_dir = "kxmovie/FFmpeg/include"
+#s.exclude_files = "kxmovie/FFmpeg/include/**/*.h"
+ s.header_dir = "kxmovie/FFmpeg/include"
  s.resources = "kxmovie/*.bundle"
  s.vendored_libraries = "kxmovie/**/*.a"
  s.xcconfig = {
