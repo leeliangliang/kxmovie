@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
  s.libraries  = 'z', 'iconv', 'bz2'
  s.source_files = "kxmovie/*.{h,m}"
  s.preserve_paths = "kxmovie/FFmpeg/include/**/*.h"
- s.header_dir = "kxmovie/FFmpeg/include"
  s.resources = "kxmovie/*.bundle"
  s.vendored_libraries = "kxmovie/FFmpeg/lib/*.a"
  s.xcconfig = {
